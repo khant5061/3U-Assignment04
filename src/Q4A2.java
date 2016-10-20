@@ -17,7 +17,7 @@ public class Q4A2 {
      */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-            int myInt;
+            float myInt;
             System.out.println("Please input measuerment in inches");
                 myInt = in.nextInt();
                     myInt*= 2.54;
