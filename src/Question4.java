@@ -213,7 +213,8 @@ public class Question4 extends javax.swing.JFrame {
         float d = Float.parseFloat(deccost.getText());
         float e = Float.parseFloat(stafcost.getText());
         float f = Float.parseFloat(misccost.getText());
-        System.out.println(a+b+c+d+e+f);
+        float g = a+b+c+d+e+f;
+        System.out.println("The total cost is " + g + " You will need to sell " + g/35 + " to break even ");
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
